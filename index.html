@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<center>
+		<div>
+            <img id="pb" src="cd.jpg" width="200" height="100">
+        </div>
+        
+		<b>
+			<code>display:"none"</code> and
+			<code>visibility="hidden"</code>
+		</b>
+		<br>
+		<div class="container">
+            <div class="left-con">
+				<div id="dis">
+                    <img src="pic-4.png" width="180 px" height="230px">
+                    <h3 id="t1">
+					After clicking the below button this div won't exist.
+                   </h3>
+				</div>
+				<br>
+				<button class="btn" onclick="display()">display="none"</button>
+				<p>This space is filled as the above div tag is none.</p>
+
+			</div>
+
+			<div class="right-con">
+				<div id="vis">
+                    <img src="pic-3.png" width="180 px" height="230px">
+                <h3 id="t2">
+
+					After clicking the below button this div
+					still exists but invisible.
+                </h3>
+				</div>
+				<br>
+				<button class="btn"  onclick="visibility()">
+					visibility="hidden"
+				</button>
+				<p> This space is not filled as the
+					<br>above div tag still exists but invisible.
+				</p>
+
+			</div>
+			
+		</div>
+	</center>
+	
+	<script src="script.js"></script>
+	
+</body>
+</html>
+
+    
+    
